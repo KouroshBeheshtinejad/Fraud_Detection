@@ -16,15 +16,16 @@ Fruad_Detection/
 ├── data/ # Raw
 ├── models/ # Saved trained models (joblib)
 ├── notebooks/ # EDA + experiments
-├── plots/ # Plots od matrix and roc
+├── plots/ # Plots or matrix
 ├── reports/ # The report of evaluate.py
 ├── src/ # Source code
 │ ├── data.py # Data loading & splitting
 │ ├── features.py # Feature engineering
-│ ├── model.py # Training & saving models
+│ ├── model.py # Design models
 │ ├── evaluate.py # Evaluation metrics & plots
+│ ├── test.py # Script for testing API predictions
+│ ├── train.py # Training models
 │ └── api.py # FastAPI app
-├── test.py # Script for testing API predictions
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 ```
