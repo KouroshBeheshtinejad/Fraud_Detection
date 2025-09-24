@@ -1,0 +1,13 @@
+# requirements.txt
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+matplotlib
+seaborn
+xgboost
+lightgbm
+joblib
+fastapi
+uvicorn
+python-dotenv
